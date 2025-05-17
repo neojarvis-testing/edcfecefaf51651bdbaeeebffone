@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.springapp.SpringappApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 19, Errors: 0, Skipped: 0, Time elapsed: 2.992 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
-backend_day15_testControllerDirectoryExists  Time elapsed: 0.192 s  <<< FAILURE!
+Tests run: 19, Failures: 19, Errors: 0, Skipped: 0, Time elapsed: 3.955 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
+backend_day15_testControllerDirectoryExists  Time elapsed: 0.33 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.backend_day15_testControllerDirectoryExists(SpringappApplicationTests.java:43)
 
-backend_day15_testControllerFileExists  Time elapsed: 0.002 s  <<< FAILURE!
+backend_day15_testControllerFileExists  Time elapsed: 0.003 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.backend_day15_testControllerFileExists(SpringappApplicationTests.java:54)
 
-backend_day15_testWelcomeApi  Time elapsed: 0.086 s  <<< FAILURE!
+backend_day15_testWelcomeApi  Time elapsed: 0.118 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.backend_day15_testWelcomeApi(SpringappApplicationTests.java:62)
 
@@ -22,7 +22,7 @@ backend_day16_testFlightModelFileExists  Time elapsed: 0 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.backend_day16_testFlightModelFileExists(SpringappApplicationTests.java:86)
 
-backend_day16_testGetAllFlightList  Time elapsed: 0.029 s  <<< FAILURE!
+backend_day16_testGetAllFlightList  Time elapsed: 0.064 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.backend_day16_testGetAllFlightList(SpringappApplicationTests.java:95)
 
@@ -34,11 +34,11 @@ backend_day17_testFlightServiceFileExists  Time elapsed: 0 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.backend_day17_testFlightServiceFileExists(SpringappApplicationTests.java:117)
 
-backend_day17_testAddFlight  Time elapsed: 0.033 s  <<< FAILURE!
+backend_day17_testAddFlight  Time elapsed: 0.018 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.backend_day17_testAddFlight(SpringappApplicationTests.java:129)
 
-backend_day18_testGetAllFlights  Time elapsed: 0.013 s  <<< FAILURE!
+backend_day18_testGetAllFlights  Time elapsed: 0.011 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.backend_day18_testGetAllFlights(SpringappApplicationTests.java:148)
 
@@ -62,11 +62,11 @@ backend_day22_testExceptionFile  Time elapsed: 0 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.backend_day22_testExceptionFile(SpringappApplicationTests.java:226)
 
-backend_day24_testControllerBooking  Time elapsed: 0.001 s  <<< FAILURE!
+backend_day24_testControllerBooking  Time elapsed: 0 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.backend_day24_testControllerBooking(SpringappApplicationTests.java:236)
 
-backend_day24_testGetAllBookings  Time elapsed: 0.029 s  <<< FAILURE!
+backend_day24_testGetAllBookings  Time elapsed: 0.026 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.backend_day24_testGetAllBookings(SpringappApplicationTests.java:244)
 
